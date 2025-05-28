@@ -1,6 +1,9 @@
-# Clipboard Keyboard
+# Clipboard Keyboard v1.0.0
 
 A utility application that simulates keyboard input to bypass problematic clipboard paste operations in certain applications.
+
+## Important Note
+**This application requires administrator privileges to function properly.** The keyboard simulation functionality requires elevated permissions to work correctly. Please ensure you run the application as administrator.
 
 ## Overview
 
@@ -19,9 +22,9 @@ Clipboard Keyboard is a Python-based tool that helps users input text in applica
 ## Installation
 
 ### For Users
-1. Download the latest release from the releases page
+1. Download the latest release (v1.0.0) from the releases page
 2. Extract the ZIP file
-3. Run `ClipKeyboard.exe`
+3. Right-click on `ClipKeyboard.exe` and select "Run as administrator"
 
 ### For Developers
 1. Ensure you have Python 3.x installed
@@ -90,11 +93,11 @@ clipboard-keyboard/
 
 - Windows operating system
 - Python 3.x (for development)
-- Administrator privileges (required for keyboard simulation)
+- **Administrator privileges** (required for keyboard simulation)
 
 ## Security Note
 
-This application requires administrator privileges to function properly, as it needs to simulate keyboard input at the system level.
+This application requires administrator privileges to function properly, as it needs to simulate keyboard input at the system level. This is a security requirement for Windows applications that need to interact with system-level input devices.
 
 ## License
 
